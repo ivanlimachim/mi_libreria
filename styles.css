@@ -41,3 +41,16 @@ nav a{
 nav a:hover{
     color: #e8d7a8;
 }
+
+@media(max-width: 600px){
+    header {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 12px;
+    }
+    nav ul {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 8px;
+    }
+}
