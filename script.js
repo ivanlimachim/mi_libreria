@@ -13,6 +13,7 @@ function alternarModo() {
     }else{
         botonModo.textContent = 'Modo dia';
     }
+    console.log("Cambiando de modo...");
 }
 
 botonModo.addEventListener("click", alternarModo);
