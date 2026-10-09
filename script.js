@@ -14,3 +14,5 @@ function alternarModo() {
         botonModo.textContent = 'Modo dia';
     }
 }
+
+botonModo.addEventListener("click", alternarModo);
