@@ -41,6 +41,16 @@ nav a{
 nav a:hover{
     color: #e8d7a8;
 }
+.boton-modo{
+    margin-top: 14px;
+    background-color: #17324d;
+    color: #2e2a24;
+    border: none;
+    border-radius: 20px;
+    padding: 8px 18px;
+    font: inherit;
+    font-weight: bold;
+}
 
 @media(max-width: 600px){
     header {
