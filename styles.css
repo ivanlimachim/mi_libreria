@@ -59,7 +59,7 @@ body.claro header {
     background-color: #f5f1e8;
     color: #17324d;
 }
-body.claro header {
+body.claro header p {
     color: #f5f1e8;
 }
 @media(max-width: 600px){
