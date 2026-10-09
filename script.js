@@ -1,7 +1,7 @@
 const cuerpo = document.querySelector("body");
 const botonModo = document.querySelector("#btn-tema");
 
-let esDia = false;
+let esDeDia = false;
 
 function alternarModo() {
     cuerpo.classList.toggle("claro");
