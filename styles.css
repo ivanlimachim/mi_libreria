@@ -51,7 +51,17 @@ nav a:hover{
     font: inherit;
     font-weight: bold;
 }
-
+body.claro {
+    background-color: #e8d7a8;
+    color: #244b6b;
+}
+body.claro header {
+    background-color: #17324d;
+    color: #f5f1e8;
+}
+body.claro header {
+    color: #f5f1e8;
+}
 @media(max-width: 600px){
     header {
         flex-direction: column;
