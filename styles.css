@@ -29,6 +29,9 @@ nav ul{
     margin: 0;
     padding: 0;
 }
+nav ul.abierto{
+    display: flex;
+}
 nav li{
     display: inline;
     margin: 0 20px;
@@ -40,6 +43,18 @@ nav a{
 }
 nav a:hover{
     color: #e8d7a8;
+}
+
+#btn-menu{
+    display: none;
+}
+.hamburguesa{
+    margin: 0 auto 8px;
+    background-color: #244b6b;
+    color: white;
+    border: 1px solid #121c29;
+    border-radius: 6px;
+
 }
 main{
     width: 90%;
@@ -154,5 +169,25 @@ body.claro footer input{
     }
     h1{
         font-size: 24px;
+    }
+}
+
+@media(max-width: 600px){
+    #btn-menu{
+        display: block;
+    }
+
+    nav ul {
+        display: none;
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+    }
+
+    nav ul.abierto{
+        display: flex;
+    }
+    header{
+        padding: 20px 12px 16px;
     }
 }
