@@ -149,4 +149,10 @@ body.claro footer input{
         align-items: flex-start;
         gap: 8px;
     }
+    main{
+        padding: 12px;
+    }
+    h1{
+        font-size: 24px;
+    }
 }
