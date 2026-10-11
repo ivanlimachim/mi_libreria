@@ -124,6 +124,19 @@ body.claro section h3{
 body.claro section li{
     color: #f5f1e8;
 }
+body.claro footer{
+    background-color: #0b1724;
+    color: white;
+}
+body.claro footer small{
+    color: #e8d7a8;
+}
+body.claro footer input{
+    background-color: #26384a;
+    color: white;
+    border: 1px solid #52677c;
+}
+
 
 @media(max-width: 600px){
     header {
