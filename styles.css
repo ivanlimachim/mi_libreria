@@ -24,8 +24,11 @@ nav{
     padding: 10px;
 }
 nav ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
     list-style: none;
-    text-align: center;
     margin: 0;
     padding: 0;
 }
@@ -33,10 +36,10 @@ nav ul.abierto{
     display: flex;
 }
 nav li{
-    display: inline;
     margin: 0 20px;
 }
 nav a{
+    display: inline-block;
     color: white;
     text-decoration: none;
     font-weight: bold;
