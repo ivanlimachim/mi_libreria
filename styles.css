@@ -100,6 +100,17 @@ body.claro header {
 body.claro header p {
     color: #e8d7a8;
 }
+body.claro nav{
+    background-color: #172b40;
+}
+body.claro nav a{
+    color: #f5f1e8;
+}
+body.claro nav a:hover{
+    color: #e8d7a8;
+}
+
+
 @media(max-width: 600px){
     header {
         flex-direction: column;
