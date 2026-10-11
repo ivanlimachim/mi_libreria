@@ -109,7 +109,21 @@ body.claro nav a{
 body.claro nav a:hover{
     color: #e8d7a8;
 }
-
+body.claro section{
+    background-color: #1e2b39;
+    color: #f5f1e8;
+    border-color: #35485a;
+}
+body.claro section h2{
+    color: #e8d7a8;
+    border-bottom-color: #d4af60;
+}
+body.claro section h3{
+    color: #9fc9ef;
+}
+body.claro section li{
+    color: #f5f1e8;
+}
 
 @media(max-width: 600px){
     header {
