@@ -41,6 +41,17 @@ nav a{
 nav a:hover{
     color: #e8d7a8;
 }
+main{
+    width: 90%;
+    margin: 30px auto;
+}
+section{
+    background-color: white;
+    border: 1px solid #ddd2bd;
+    margin-bottom: 20px;
+    padding: 20px;
+    border-radius: 8px;
+}
 .boton-modo{
     margin-top: 14px;
     background-color: #244b6b;
