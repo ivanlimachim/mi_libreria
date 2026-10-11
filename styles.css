@@ -90,15 +90,15 @@ footer small{
     font-weight: bold;
 }
 body.claro {
-    background-color: #e8d7a8;
-    color: #244b6b;
+    background-color: #121c29;
+    color: #f5f1e8;
 }
 body.claro header {
-    background-color: #f5f1e8;
-    color: #17324d;
+    background-color: #0b1724;
+    color: white;
 }
 body.claro header p {
-    color: #f5f1e8;
+    color: #e8d7a8;
 }
 @media(max-width: 600px){
     header {
