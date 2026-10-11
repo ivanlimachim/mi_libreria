@@ -9,9 +9,9 @@ function alternarModo() {
     esDeDia = !esDeDia;
 
     if (esDeDia) {
-        botonModo.textContent = 'Modo noche';
+        botonModo.textContent = 'Modo noche 🌙';
     }else{
-        botonModo.textContent = 'Modo dia';
+        botonModo.textContent = 'Modo día ☀️';
     }
     console.log("Cambiando de modo...");
 }
