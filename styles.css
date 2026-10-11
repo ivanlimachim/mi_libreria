@@ -153,6 +153,11 @@ body.claro footer input{
     color: white;
     border: 1px solid #52677c;
 }
+body.claro footer textarea{
+    background-color: #26384a;
+    color: white;
+    border: 1px solid #52677c;
+}
 
 
 @media(max-width: 600px){
