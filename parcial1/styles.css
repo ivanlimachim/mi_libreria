@@ -64,3 +64,31 @@ label{
     margin-bottom: 5px;
     font-weight: bold;
 }
+
+input, textarea{
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+button{
+    background-color: #457b9d;
+    color: #ffffff;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 4px;
+}
+
+button:hover{
+    background-color: #1d3557;
+}
+
+footer{
+    text-align: center;
+    font-size: 14px;
+    color: #666;
+    border-radius: 0 0 8px 8px;
+    border-top: 1px solid #ddd;
+}
