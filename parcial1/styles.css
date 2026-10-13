@@ -1,3 +1,19 @@
 .oculto{
     display: none;
 }
+
+body{
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f6f8;
+    color: #333333;
+    margin: 0;
+}
+
+header{
+    max-width: 800px;
+    margin: 0 auto;
+    background-color: #ffffff;
+    padding: 20px;
+    box-sizing: border-box;
+}
