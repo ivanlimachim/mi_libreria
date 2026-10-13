@@ -5,3 +5,5 @@ function mostrarMensaje(){
     mensajeParrafo.textContent = "Encargo recibido - te atiende Ivan Limachi Mamani";
     mensajeParrafo.classList.remove("oculto");
 }
+
+botonConfirmar.addEventListener("click", mostrarMensaje);
