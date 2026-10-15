@@ -31,5 +31,25 @@ const formularioPedido = document.querySelector("#form-pedido");
 const avisoPedido = document.querySelector("#error-pedido");
 
 function revisarPedido(event){
-    
+    event.preventDefault();
+
+    const nombre = document.querySelector("#nombre").value;
+    const correo = document.querySelector("#correo").value;
+    const telefono = document.querySelector("#telefono").value;
+
+    if (nombre === "") {
+        avisoPedido.textContent = "Falta su nombre.";
+        avisoPedido.classList.add("error");
+        avisoPedido.classList.remove("exito");
+    }else if (correo.includes("@") === false){
+        avisoPedido.textContent = "Ingrese un correo que lleve @."
+        avisoPedido.classList.add("error");
+        avisoPedido.classList.remove("exito");
+    }else if (telefono === "") {
+        avisoPedido.textContent = "Ingrese su número de celular.";
+        avisoPedido.classList.add("error");
+        avisoPedido.classList.remove("exito");
+    } else {
+        
+    }
 }
