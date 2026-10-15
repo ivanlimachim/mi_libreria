@@ -109,54 +109,54 @@ footer small{
     font: inherit;
     font-weight: bold;
 }
-body.claro {
+body.oscuro {
     background-color: #121c29;
     color: #f5f1e8;
 }
-body.claro header {
+body.oscuro header {
     background-color: #0b1724;
     color: white;
 }
-body.claro header p {
+body.oscuro header p {
     color: #e8d7a8;
 }
-body.claro nav{
+body.oscuro nav{
     background-color: #172b40;
 }
-body.claro nav a{
+body.oscuro nav a{
     color: #f5f1e8;
 }
-body.claro nav a:hover{
+body.oscuro nav a:hover{
     color: #e8d7a8;
 }
-body.claro section{
+body.oscuro section{
     background-color: #1e2b39;
     color: #f5f1e8;
     border-color: #35485a;
 }
-body.claro section h2{
+body.oscuro section h2{
     color: #e8d7a8;
     border-bottom-color: #d4af60;
 }
-body.claro section h3{
+body.oscuro section h3{
     color: #9fc9ef;
 }
-body.claro section li{
+body.oscuro section li{
     color: #f5f1e8;
 }
-body.claro footer{
+body.oscuro footer{
     background-color: #0b1724;
     color: white;
 }
-body.claro footer small{
+body.oscuro footer small{
     color: #e8d7a8;
 }
-body.claro footer input{
+body.oscuro footer input{
     background-color: #26384a;
     color: white;
     border: 1px solid #52677c;
 }
-body.claro footer textarea{
+body.oscuro footer textarea{
     background-color: #26384a;
     color: white;
     border: 1px solid #52677c;
