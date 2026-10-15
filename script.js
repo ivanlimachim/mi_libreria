@@ -26,3 +26,10 @@ function alternarMenu() {
 }
 
 botonMenu.addEventListener("click", alternarMenu);
+
+const formularioPedido = document.querySelector("#form-pedido");
+const avisoPedido = document.querySelector("#error-pedido");
+
+function revisarPedido(event){
+    
+}
