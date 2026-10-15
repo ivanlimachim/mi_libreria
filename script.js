@@ -4,7 +4,7 @@ const botonModo = document.querySelector("#btn-tema");
 let esDeDia = false;
 
 function alternarModo() {
-    cuerpo.classList.toggle("claro");
+    cuerpo.classList.toggle("oscuro");
 
     esDeDia = !esDeDia;
 
