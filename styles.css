@@ -93,7 +93,7 @@ footer {
 #contacto input, #contacto textarea{
     padding: 8px;
     margin: 8px;
-    border: none;
+    border: 1px solid black;
     border-radius: 4px;
     font-family: Arial, Helvetica, sans-serif;
 }
