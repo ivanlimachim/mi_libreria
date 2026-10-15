@@ -55,3 +55,5 @@ function revisarPedido(event){
         avisoPedido.classList.remove("error");
     }
 }
+
+formularioPedido.addEventListener("submit", revisarPedido);
