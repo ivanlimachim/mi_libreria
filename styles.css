@@ -95,6 +95,22 @@ footer {
     margin: 8px;
     border: none;
     border-radius: 4px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#contacto textarea{
+    resize: vertical;
+}
+#contacto button{
+    margin: 8px;
+    padding: 8px 16px;
+    background-color: #244b6b;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    font: inherit;
+}
+#contacto button:hover{
+    background-color: #17324d;
 }
 footer small{
     color: #e8d7a8;
