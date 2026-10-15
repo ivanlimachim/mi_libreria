@@ -52,5 +52,6 @@ function revisarPedido(event){
     } else {
         avisoPedido.textContent = "Solicitud recibida";
         avisoPedido.classList.add("exito");
+        avisoPedido.classList.remove("error");
     }
 }
