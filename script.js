@@ -50,6 +50,7 @@ function revisarPedido(event){
         avisoPedido.classList.add("error");
         avisoPedido.classList.remove("exito");
     } else {
-        
+        avisoPedido.textContent = "Solicitud recibida";
+        avisoPedido.classList.add("exito");
     }
 }
