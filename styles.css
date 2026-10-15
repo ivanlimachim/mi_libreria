@@ -167,17 +167,27 @@ body.oscuro footer{
 body.oscuro footer small{
     color: #e8d7a8;
 }
-body.oscuro footer input{
+body.oscuro #contacto input{
     background-color: #26384a;
     color: white;
     border: 1px solid #52677c;
 }
-body.oscuro footer textarea{
+body.oscuro #contacto textarea{
     background-color: #26384a;
     color: white;
     border: 1px solid #52677c;
 }
-
+body.oscuro #contacto input::placeholder,
+body.oscuro #contacto textarea::placeholder{
+    color: #d0d8e0;
+}
+body.oscuro #contacto button{
+    background-color: #244b6b;
+    color: white;
+}
+body.oscuro #contacto button:hover{
+    background-color: #355d7d;
+}
 
 @media(max-width: 600px){
     header {
