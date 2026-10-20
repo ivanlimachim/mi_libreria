@@ -5,9 +5,9 @@
     $mensaje = $_POST["mensaje"];
 
     echo "<h2> Mensaje recibido</h2>"
-    echo "<p></p>";
-    echo "<p></p>";
-    echo "<p></p>";
-    echo "<p></p>";
+    echo "<p>Nombre: $nombre</p>";
+    echo "<p>Correo: $correo</p>";
+    echo "<p>Telefono: $telefono</p>";
+    echo "<p>Mensaje: $mensaje</p>";
 
 ?>
