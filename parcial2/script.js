@@ -10,5 +10,16 @@ function validarFormulario(event) {
         aviso.textContent = "Sin tu nombre y tu correo no anotamos el pedido.";
         aviso.classList.add("error");
         aviso.classList.remove("exito");
+    } else if (!correo.includes("@")) {
+        event.preventDefault();
+        aviso.textContent = "A ese correo le falta el arroba - corrigelo antes de enviar.";
+        aviso.classList.add("error");
+        aviso.classList.remove("exito");
+    } else {
+        aviso.textContent = "Pedido tomado - te atiende Ivan Limachi Mamani";
+        aviso.classList.add("exito");
+        aviso.classList.remove("error");
     }
 }
+
+formulario.addEventListener("submit", validarFormulario);
