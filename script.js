@@ -63,7 +63,8 @@ formularioPedido.addEventListener("submit", function(event) {
         avisoPedido.classList.add("exito");
         avisoPedido.classList.remove("error");
 
-        formularioPedido.submit();
+        //formularioPedido.submit();
+        HTMLFormElement.prototype.submit.call(formularioPedido);
     }
 });
 
