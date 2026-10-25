@@ -30,7 +30,7 @@ botonMenu.addEventListener("click", alternarMenu);
 const formularioPedido = document.querySelector("#form-pedido");
 const avisoPedido = document.querySelector("#error-pedido");
 
-function revisarPedido(event) {
+formularioPedido.addEventListener("submit", function(event) {
     event.preventDefault();
 
     const nombre = document.querySelector("#nombre").value.trim();
@@ -65,6 +65,6 @@ function revisarPedido(event) {
 
         formularioPedido.submit();
     }
-}
+});
 
 formularioPedido.addEventListener("submit", revisarPedido);
