@@ -51,13 +51,14 @@ function revisarPedido(event){
         avisoPedido.classList.add("error");
         //avisoPedido.classList.remove("exito");
     }else if (telefono === "") {
+        event.preventDefault();
         avisoPedido.textContent = "Ingrese su número de celular.";
         avisoPedido.classList.add("error");
-        avisoPedido.classList.remove("exito");
+        //avisoPedido.classList.remove("exito");
     } else {
         avisoPedido.textContent = "Solicitud recibida";
         avisoPedido.classList.add("exito");
-        avisoPedido.classList.remove("error");
+        //avisoPedido.classList.remove("error");
     }
 }
 
