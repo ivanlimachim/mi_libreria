@@ -41,9 +41,10 @@ function revisarPedido(event){
     avisoPedido.classList.remove("error", "exito");
 
     if (nombre === "") {
+        event.preventDefault();
         avisoPedido.textContent = "Falta su nombre.";
         avisoPedido.classList.add("error");
-        avisoPedido.classList.remove("exito");
+        //avisoPedido.classList.remove("exito");
     }else if (correo.includes("@") === false){
         avisoPedido.textContent = "Ingrese un correo que lleve @."
         avisoPedido.classList.add("error");
