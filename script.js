@@ -31,13 +31,14 @@ const formularioPedido = document.querySelector("#form-pedido");
 const avisoPedido = document.querySelector("#error-pedido");
 
 function revisarPedido(event){
-    event.preventDefault();
+    //event.preventDefault();
 
-    const nombre = document.querySelector("#nombre").value;
-    const correo = document.querySelector("#correo").value;
-    const telefono = document.querySelector("#telefono").value;
+    const nombre = document.querySelector("#nombre").value.trim();
+    const correo = document.querySelector("#correo").value.trim();
+    const telefono = document.querySelector("#telefono").value.trim();
     const mensaje = document.querySelector("#mensaje").value.trim();
 
+    avisoPedido.textContent = "";
     avisoPedido.classList.remove("error", "exito");
 
     if (nombre === "") {
