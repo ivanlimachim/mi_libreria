@@ -36,6 +36,9 @@ function revisarPedido(event){
     const nombre = document.querySelector("#nombre").value;
     const correo = document.querySelector("#correo").value;
     const telefono = document.querySelector("#telefono").value;
+    const mensaje = document.querySelector("#mensaje").value.trim();
+
+    avisoPedido.classList.remove("error", "exito");
 
     if (nombre === "") {
         avisoPedido.textContent = "Falta su nombre.";
