@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Mi Librería</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header><h1>LIBRERÍA PÁGINA 10</h1>
+    <p class="marca">La Librería más completa de la ciudad</p>
+    <button type="button" id="btn-tema" class="boton-modo">Modo día ☀️</button>
+    </header>
+
+    <nav>
+        <button type="button" id="btn-menu" class="hamburguesa">☰ Menu</button>
+        <ul>
+            <li><a href="#inicio">Inicio</a></li>
+            <li><a href="#catalogo">Catálogo</a></li>
+            <li><a href="#ofertas">Ofertas</a></li>
+            <li><a href="#novedades">Novedades</a></li>
+            <li><a href="#contacto">Contacto</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <section id="inicio">
+            <h2>Destacados de la semana</h2>
+            <ul>
+                <li>La última noche del Titanic</li>
+                <li>Hasta el último instante</li>
+                <li>Mafalda</li>
+            </ul>
+        </section>
+
+        <section id="novedades">
+            <h2>Próximas Novedades</h2>
+            <ul>
+                <li>Poemas</li>
+                <li>La Iliada</li>
+                <li>Libros nacionales</li>
+            </ul>
+        </section>
+
+        <section id="ofertas">
+            <h2>Oferta del día</h2>
+                <h3>Historia de Bolivia</h3>
+                <p>Antes: Bs.356 Ahora: Bs.299</p>
+            
+        </section>
+        <section id="contacto">
+            <h2>Contacto</h2>
+
+            <form id="form-pedido" novalidate method="POST" action="procesar.php">
+                <label for="nombre">Nombre Completo</label>
+                <input type="text" id="nombre" name="nombre" placeholder="nombre" required><br>
+                <label for="correo">Correo Electrónico</label>
+                <input type="email" id="correo" name="correo" placeholder="ejemplo@correo.com" required><br>
+                <label for="telefono">Número de Teléfono</label>
+                <input type="number" id="telefono" name="telefono" placeholder="Ej. 71234567" required><br>
+                <label for="mensaje">Mensaje</label>
+                <textarea id="mensaje" name="mensaje" placeholder="Escribe tu mensaje aquí..."></textarea><br>
+                <button type="submit">Enviar</button>
+                <button type="reset">Limpiar</button>
+
+                <p id="error-pedido" class="aviso"></p>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>@Ivan Limachi Mamani</p>
+        <p><small>Libreria Página 10. Dirección: Av. Ecuador #3011. Cel: +591 7778888</small></p>
+    </footer>
+    
+    <script src="script.js"></script>
+</body>
+</html>
