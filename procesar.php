@@ -1,4 +1,7 @@
 <?php
+
+    echo "<h1>Mensaje recibido en Librería Página 10</h1>";
+
     $nombre = $_POST["nombre"];
     $correo = $_POST["correo"];
     $telefono = $_POST["telefono"];
