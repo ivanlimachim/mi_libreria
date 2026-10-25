@@ -46,9 +46,10 @@ function revisarPedido(event){
         avisoPedido.classList.add("error");
         //avisoPedido.classList.remove("exito");
     }else if (correo.includes("@") === false){
+        event.preventDefault();
         avisoPedido.textContent = "Ingrese un correo que lleve @."
         avisoPedido.classList.add("error");
-        avisoPedido.classList.remove("exito");
+        //avisoPedido.classList.remove("exito");
     }else if (telefono === "") {
         avisoPedido.textContent = "Ingrese su número de celular.";
         avisoPedido.classList.add("error");
