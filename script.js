@@ -30,36 +30,40 @@ botonMenu.addEventListener("click", alternarMenu);
 const formularioPedido = document.querySelector("#form-pedido");
 const avisoPedido = document.querySelector("#error-pedido");
 
-function revisarPedido(event){
-    //event.preventDefault();
+function revisarPedido(event) {
+    event.preventDefault();
 
     const nombre = document.querySelector("#nombre").value.trim();
     const correo = document.querySelector("#correo").value.trim();
     const telefono = document.querySelector("#telefono").value.trim();
     const mensaje = document.querySelector("#mensaje").value.trim();
 
-    avisoPedido.textContent = "";
-    avisoPedido.classList.remove("error", "exito");
-
     if (nombre === "") {
-        event.preventDefault();
         avisoPedido.textContent = "Falta su nombre.";
         avisoPedido.classList.add("error");
-        //avisoPedido.classList.remove("exito");
-    }else if (correo.includes("@") === false){
-        event.preventDefault();
-        avisoPedido.textContent = "Ingrese un correo que lleve @."
+        avisoPedido.classList.remove("exito");
+
+    } else if (correo.includes("@") === false) {
+        avisoPedido.textContent = "Ingrese un correo que lleve @.";
         avisoPedido.classList.add("error");
-        //avisoPedido.classList.remove("exito");
-    }else if (telefono === "") {
-        event.preventDefault();
+        avisoPedido.classList.remove("exito");
+
+    } else if (telefono === "") {
         avisoPedido.textContent = "Ingrese su número de celular.";
         avisoPedido.classList.add("error");
-        //avisoPedido.classList.remove("exito");
+        avisoPedido.classList.remove("exito");
+
+    } else if (mensaje === "") {
+        avisoPedido.textContent = "Escriba su mensaje.";
+        avisoPedido.classList.add("error");
+        avisoPedido.classList.remove("exito");
+
     } else {
-        avisoPedido.textContent = "Solicitud recibida";
+        avisoPedido.textContent = "Solicitud enviada.";
         avisoPedido.classList.add("exito");
-        //avisoPedido.classList.remove("error");
+        avisoPedido.classList.remove("error");
+
+        formularioPedido.submit();
     }
 }
 
